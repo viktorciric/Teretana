@@ -34,23 +34,6 @@ if (isset($_GET['what'])) {
         die();
     }
 
-   /* $run = $conn->query($sql);
-
-    $results = $run->fetch_all(MYSQLI_ASSOC);
-
-    $output = fopen('php://output', 'w');
-
-    header('Content-Type: text/csv');
-    header('Content-Disposition: attachment; filename=' . $_GET['what'] . ".csv");
-
-    fputcsv($output, $csv_cols);
-
-    foreach ($results as $result) {
-        fputcsv($output, $result);
-    }
-
-    fclose($output); */
-
   
 $run = $conn->query($sql);
 
