@@ -17,5 +17,5 @@ if (in_array($ext, $allowed_ext) && $photo['size'] < 2000000) {
         echo json_encode(['success' => false, 'error' => 'Failed to move the uploaded file.']);
     }
 } else {
-    echo json_encode(['success' => false, 'error' => 'Invalid file. Please upload an image (jpg, jpeg, png, gif) with a maximum size of 2MB.']);
+    echo json_encode(['success' => false, 'error' => 'Invalid file']);
 }
