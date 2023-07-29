@@ -11,9 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $message = "" ;
 
     if ($run->execute()) {
-        $message = "Član teretane je uspesno obrisan" ;
+        $message = "Trener je uspesno obrisan" ;
     } else {
-        $message = "Član teretane nije obrisan" ;
+        $message = "Trener nije obrisan" ;
     }
 
     $_SESSION['success_mesage'] = $message;
