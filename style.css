@@ -1,0 +1,76 @@
+body {
+    overflow: hidden;
+    background-image: url(img/Pozadina.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+  }
+  
+  form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="submit"] {
+    display: block;
+    border-radius:3px ;
+    border: none;
+    width: 300px;
+    margin: 10px auto;
+    border: none; 
+    outline: none; 
+  }
+
+  form input[type="password"]{
+    color: black;
+  }
+  form input[type="submit"] {
+    color: black;
+  }
+  
+  form input[type="submit"] {
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 70px;
+    color: white;
+    background-color: #34495e;
+    position: relative; 
+    right: 0px;
+    transition: background-color 0.4s ease;
+  }
+
+
+  form input[type="submit"]:hover {
+    background-color: red;
+    color: black;
+  }   
+
+  form input[type="submit"]:active {
+    border: 2px solid black;
+  }
+
+  p {
+    font-size: 22px;
+    color: rgba(190, 0, 0,1);
+    position: relative;
+    top: 35%;
+    left: 43%;
+  }
+
+  
